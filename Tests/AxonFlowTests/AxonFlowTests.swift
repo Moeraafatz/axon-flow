@@ -70,11 +70,11 @@ final class AxonFlowTests: XCTestCase {
     }
 
     func testCSVBatchEngineParsesQuotedRFC4180AndRunsBatch() {
-        let csv = """
+        let csv = #"""
         email,company
         "alex@acme.io","Acme, Inc."
         "sara@northstar.ai","Northstar ""Labs"""
-        """
+        """#
         let dataset = CSVBatchEngine.parse(csv, fileName: "test.csv")
         XCTAssertEqual(dataset.headers, ["email", "company"])
         XCTAssertEqual(dataset.rows.count, 2)
