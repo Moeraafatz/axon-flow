@@ -1,0 +1,85 @@
+{
+  "batchScalePoints" : [
+    {
+      "rowCount" : 100,
+      "rowsPerSecond" : 1002.6376494942951,
+      "totalDurationMs" : 99.73692893981934
+    },
+    {
+      "rowCount" : 1000,
+      "rowsPerSecond" : 853.272920943911,
+      "totalDurationMs" : 1171.9579696655273
+    },
+    {
+      "rowCount" : 5000,
+      "rowsPerSecond" : 933.6913069844887,
+      "totalDurationMs" : 5355.088949203491
+    },
+    {
+      "rowCount" : 10000,
+      "rowsPerSecond" : 880.8553312792452,
+      "totalDurationMs" : 11352.602005004883
+    }
+  ],
+  "compilerCompiledSteps" : 7,
+  "compilerDurationMs" : 0.07562041282653809,
+  "compilerRawEvents" : 47,
+  "compilerReductionPercent" : 85.1063829787234,
+  "generatedAtISO8601" : "2026-11-23T15:34:55Z",
+  "hostArchitecture" : "Apple Silicon (arm64)",
+  "osVersion" : "Version 26.7.2 (Build 25G332)",
+  "resilienceScenarios" : [
+    {
+      "pixelSuccessPercent" : 0,
+      "scenarioName" : "Window Moved",
+      "semanticSuccessPercent" : 100,
+      "trials" : 60
+    },
+    {
+      "pixelSuccessPercent" : 0,
+      "scenarioName" : "Window Resized",
+      "semanticSuccessPercent" : 100,
+      "trials" : 60
+    },
+    {
+      "pixelSuccessPercent" : 0,
+      "scenarioName" : "Sidebar Toggled",
+      "semanticSuccessPercent" : 100,
+      "trials" : 60
+    },
+    {
+      "pixelSuccessPercent" : 0,
+      "scenarioName" : "2nd Display Shift",
+      "semanticSuccessPercent" : 100,
+      "trials" : 60
+    },
+    {
+      "pixelSuccessPercent" : 0,
+      "scenarioName" : "Label Count Drift",
+      "semanticSuccessPercent" : 100,
+      "trials" : 60
+    }
+  ],
+  "selectorScalePoints" : [
+    {
+      "resolveP50Ms" : 0.39005279541015625,
+      "resolveP95Ms" : 0.9529590606689453,
+      "treeNodeCount" : 100
+    },
+    {
+      "resolveP50Ms" : 1.0269880294799805,
+      "resolveP95Ms" : 2.2579431533813477,
+      "treeNodeCount" : 250
+    },
+    {
+      "resolveP50Ms" : 2.109050750732422,
+      "resolveP95Ms" : 4.710078239440918,
+      "treeNodeCount" : 500
+    },
+    {
+      "resolveP50Ms" : 4.166007041931152,
+      "resolveP95Ms" : 5.008935928344727,
+      "treeNodeCount" : 1000
+    }
+  ]
+}
